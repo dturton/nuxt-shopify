@@ -1,4 +1,4 @@
-import ShopifyBuy from 'shopify-buy';
+import ShopifyBuy from 'shopify-buy/index.unoptimized.umd';
 import { Context } from '@nuxt/types';
 
 if (process.server || (process.client && !window.fetch)) {
